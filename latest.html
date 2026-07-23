@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>📡 新光人壽 數據暨AI發展部｜保險業 AI・Agent・數位轉型 月報 2026 年 7 月號（資料截至 7/24）</title>
+<meta property="og:title" content="新光人壽 數據暨AI發展部｜保險業 AI・Agent・數位轉型 月報 2026 年 7 月號（資料截至 7/24）">
+<meta property="og:description" content="每月策略情報：全球保險業 AI 動態、產業指標、台灣同業與監理觀察，附對新壽的啟示。">
+
+<!-- ═══ Google Analytics 4 追蹤碼（pj_intelnews_monthly_review 專案獨立評估 ID：G-H2JCZV5HB5）═══
+每一期電子報都要保留這段 script。GA4 加強型評估會自動記錄頁面瀏覽與外部連結點擊。 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-H2JCZV5HB5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-H2JCZV5HB5');
+</script>
+
+<style>
+  :root{
+    --navy:#14355c; --navy-deep:#0d2440; --accent:#c8a24b; --red:#b5342d;
+    --ink:#2b2b2b; --grey:#6b7280; --line:#e3e0d8; --bg:#f4f2ec; --card:#ffffff;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;}
+  .wrap{max-width:720px;margin:0 auto;background:var(--card);box-shadow:0 0 24px rgba(0,0,0,.07);}
+
+  /* 報頭 */
+  .masthead{background:var(--navy-deep);color:#fff;padding:34px 32px 26px;border-bottom:4px solid var(--accent);}
+  .masthead .kicker{font-size:12px;letter-spacing:4px;color:var(--accent);margin-bottom:8px;}
+  .masthead h1{font-size:26px;font-weight:700;letter-spacing:1px;line-height:1.4;}
+  .masthead .en{font-size:13px;color:#9db3cc;margin-top:6px;letter-spacing:2px;}
+  .datebar{display:flex;justify-content:space-between;align-items:center;background:var(--navy);color:#dbe4ef;font-size:13px;padding:8px 32px;letter-spacing:1px;}
+
+  /* 分區標題（工商時報式字距帶） */
+  .band{display:flex;align-items:center;gap:14px;margin:38px 32px 14px;}
+  .band .tag{background:var(--navy);color:#fff;font-size:15px;font-weight:700;letter-spacing:8px;padding:6px 18px 6px 26px;}
+  .band.alt .tag{background:var(--red);}
+  .band .rule{flex:1;height:1px;background:var(--line);}
+  .band .stars{font-size:12px;color:var(--accent);letter-spacing:2px;}
+
+  /* 分區形象圖（CSS 圖卡，一區一張） */
+  .secban{margin:0 32px 22px;padding:22px 28px;display:flex;align-items:center;gap:20px;color:#fff;border-radius:2px;position:relative;overflow:hidden;}
+  .secban .ico{font-size:46px;line-height:1;z-index:1;}
+  .secban .txt{z-index:1;}
+  .secban .t1{font-size:17px;font-weight:700;letter-spacing:1px;line-height:1.5;}
+  .secban .t2{font-size:11px;letter-spacing:3px;opacity:.8;}
+  .secban::after{content:"";position:absolute;right:-30px;top:-40px;width:170px;height:170px;border-radius:50%;background:rgba(255,255,255,.08);}
+  .secban::before{content:"";position:absolute;right:60px;bottom:-70px;width:130px;height:130px;border-radius:50%;background:rgba(255,255,255,.06);}
+  .g-focus{background:linear-gradient(120deg,#0d2440 0%,#14355c 55%,#b5342d 100%);}
+  .g-bench{background:linear-gradient(120deg,#8a6d2f 0%,#c8a24b 100%);}
+  .g-global{background:linear-gradient(120deg,#0d2440 0%,#186a72 100%);}
+  .g-tw{background:linear-gradient(120deg,#14355c 0%,#2e5e94 100%);}
+  .g-reg{background:linear-gradient(120deg,#b5342d 0%,#d4693a 100%);}
+
+  /* 新聞條目 */
+  .item{padding:0 32px;margin-bottom:26px;}
+  .item h3{font-size:17.5px;line-height:1.5;margin-bottom:6px;}
+  .item h3 a{color:var(--navy);text-decoration:none;border-bottom:1px solid transparent;}
+  .item h3 a:hover{border-bottom-color:var(--accent);}
+  .item h3 .num{color:var(--accent);margin-right:6px;}
+  .item p{font-size:14.5px;color:#444;margin-bottom:6px;}
+  .item .hl{border-bottom:2px solid var(--accent);font-weight:700;}
+  .badge{display:inline-block;border:1px solid var(--accent);color:#8a6d2f;font-size:10.5px;padding:1px 9px;margin-right:8px;vertical-align:2px;letter-spacing:2px;border-radius:1px;}
+  .badge.tw{border-color:#2f6b4f;color:#2f6b4f;}
+  .why{font-size:13.5px;background:#f7f4ec;border-left:3px solid var(--accent);padding:8px 14px;color:#555;}
+  .why b{color:var(--navy);}
+  .src{font-size:12.5px;color:var(--grey);margin-top:6px;}
+  .src a{color:var(--grey);}
+
+  /* 排名表 */
+  table.rank{width:100%;border-collapse:collapse;font-size:13.5px;margin-bottom:10px;}
+  table.rank th{background:var(--navy);color:#e9e2cf;padding:8px 10px;text-align:left;font-weight:400;letter-spacing:2px;}
+  table.rank td{padding:8px 10px;border-bottom:1px solid var(--line);}
+  table.rank tr:nth-child(even) td{background:#f7f4ec;}
+  table.rank td b{color:var(--navy);}
+
+  /* 洞察 */
+  .insight{margin:0 32px 26px;background:var(--navy-deep);color:#fff;padding:26px 28px;text-align:center;}
+  .insight .label{font-size:12px;letter-spacing:4px;color:var(--accent);display:block;margin-bottom:10px;}
+  .insight p{font-size:17px;font-weight:600;line-height:1.8;}
+
+  /* 下載區 */
+  .download{background:var(--navy-deep);margin:0 32px 26px;padding:24px 26px;display:flex;gap:22px;align-items:center;border-top:3px double var(--accent);border-bottom:3px double var(--accent);}
+  .download img{width:116px;height:116px;border:4px solid #fff;}
+  .download .txt h3{margin:0 0 7px;font-size:16px;color:#f3ecd9;letter-spacing:2px;}
+  .download .txt p{margin:0 0 12px;font-size:12px;color:#aeb8c8;line-height:1.8;}
+  .btn{display:inline-block;background:var(--accent);color:var(--navy) !important;font-size:13px;padding:9px 24px;text-decoration:none;letter-spacing:3px;font-weight:700;}
+
+  /* 頁尾 */
+  .foot{background:var(--navy-deep);color:#8fa5bf;font-size:12px;padding:22px 32px;text-align:center;line-height:2;}
+  .foot .brand{color:#fff;letter-spacing:2px;font-size:13px;}
+  .note{font-size:11.5px;color:#748ba6;}
+
+  /* 下載 PDF 按鈕（低調版，收在日期列右側） */
+  .datebar .right{display:flex;align-items:center;gap:14px;}
+  .dlbtn{background:transparent;color:#dbe4ef;font-size:12px;letter-spacing:1px;padding:3px 12px;border:1px solid rgba(200,162,75,.55);border-radius:2px;cursor:pointer;}
+  .dlbtn:hover{background:rgba(200,162,75,.18);color:#fff;}
+
+  /* 列印／存 PDF 版面 */
+  *{-webkit-print-color-adjust:exact !important;print-color-adjust:exact !important;}
+  .item,.secban,.insight,.band,.masthead,.download,table.rank tr{break-inside:avoid;page-break-inside:avoid;}
+  @media print{
+    body{background:#fff;}
+    .wrap{box-shadow:none;max-width:100%;}
+    .dlbtn{display:none;}
+    a{color:inherit;}
+  }
+  @media (max-width:480px){
+    .masthead{padding:26px 20px 20px;} .masthead h1{font-size:21px;}
+    .datebar,.item,.foot{padding-left:20px;padding-right:20px;}
+    .band{margin-left:20px;margin-right:20px;} .insight,.download{margin-left:20px;margin-right:20px;}
+    .secban{margin-left:20px;margin-right:20px;padding:16px 20px;gap:14px;}
+    .secban .ico{font-size:34px;} .secban .t1{font-size:15px;}
+    .download{flex-direction:column;text-align:center;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="masthead">
+    <div class="kicker">新 光 人 壽　　數 據 暨 A I 發 展 部</div>
+    <h1>📅 保險業 AI・Agent・數位轉型 月報</h1>
+    <div class="en">MONTHLY STRATEGIC INTELLIGENCE FOR EXECUTIVES</div>
+  </div>
+  <div class="datebar"><span>2026 年 7 月 24 日（週五）</span><span class="right">2026 年 7 月號（資料截至 7/24）<button class="dlbtn" id="dlpdf" onclick="dlPDF()">⬇ 下載 PDF</button></span></div>
+
+  <!-- ════════ 本月主軸 ════════ -->
+  <div class="band"><span class="tag">本月主軸</span><span class="rule"></span><span class="stars">★★★★★</span></div>
+  <div class="secban g-focus">
+    <span class="ico">🗞️</span>
+    <div class="txt"><div class="t1">2026 年 7 月｜排名揭曉、路徑分流、治理合流</div><div class="t2">MONTHLY BRIEFING · JUL 2026</div></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="num">壹</span>Evident AI Index 月內連環揭曉：整體與壽險類雙榜定調「企業價值」計分</h3>
+    <p>本月兩期週報接力報導 6/16 發布的 Evident AI Index 2026：Allianz 以 <span class="hl">900+ 應用案例</span>與人才優勢首度奪下整體第一，宏利則<span class="hl">連續第二年蟬聯壽險類第一</span>（整體第 3），並同步宣示 AI 於 <span class="hl">2027 年前創造逾 10 億美元企業價值</span>（2025 年底已實現 3 億美元）。評比話語權正從「有幾個案例」轉向「創造多少價值」。</p>
+    <div class="why"><b>對新壽的啟示：</b>7 月起壽險 AI 的對外敘事標準已被拉高到財務價值。建議為 AI 專案建立價值估算與追蹤機制，讓明年此時新光有自己的「價值數字」可以說。</div>
+    <div class="src">來源：<a href="https://www.allianz.com/en/mediacenter/news/articles/260616-allianz-ranked-first-in-2026-evident-ai-Index-for-insurance.html" target="_blank">Allianz 官方</a>｜<a href="https://www.manulife.com/ca/en/about-us/news/manulife-named-number-1-life-insurance-company-for-ai-maturity-by-evident" target="_blank">Manulife 官方</a>｜<a href="https://www.theinsurer.com/ti/news/allianz-overtakes-axa-zurich-rises-in-evidents-ai-adoption-ranking-2026-06-16/" target="_blank">The Insurer</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="num">貳</span>Agentic AI 規模化路徑在本月分流成三條：平台綁定、平台架構、場景擴散</h3>
+    <p>月內三個代表案例給出三種打法：Allianz 與 Anthropic 深度綁定（2026 年 1 月締約，Claude 全員平台＋Agentic 理賠工作流＋AI 稽核層）；Prudential Financial 與 AWS 共建多代理平台，統一 <span class="hl">10 萬名顧問</span>的工作入口；Singlife 從客服單點切入（2025 年 10 月啟動）再擴散至核保、理賠與 <span class="hl">2,000 名業務顧問</span>。</p>
+    <div class="why"><b>對新壽的啟示：</b>三條路徑資源門檻遞減：綁定前沿模型商最貴、自建平台次之、場景擴散最務實。新光現階段適合第三條——選定高頻場景落地，保留日後升級平台的架構彈性。</div>
+    <div class="src">來源：<a href="https://www.allianz.com/en/mediacenter/news/media-releases/260109-allianz-and-anthropic-forge-global-partnership.html" target="_blank">Allianz 新聞稿</a>｜<a href="https://www.techtarget.com/searchcustomerexperience/news/366627045/Financial-services-giant-Prudential-crafts-agentic-AI-strategy" target="_blank">TechTarget</a>｜<a href="https://www.computerweekly.com/news/366636553/Singlife-taps-Salesforce-Agentforce-to-drive-agentic-AI-strategy" target="_blank">Computer Weekly</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="num">參</span>治理與監理在本月「合流」：稽核層、信任評分、AI 管 AI 指向同一規格</h3>
+    <p>Allianz 建 AI 稽核層記錄每次互動決策、MassMutual 以<span class="hl">信任評分＋12 個月短約</span>把治理寫進架構與合約、金管會推「AI 管 AI」並研議高風險決策保留人工介入——業界工程實作與監理要求 7 月起明顯收斂到同一套規格：<span class="hl">可稽核、可介入、可替換</span>。</p>
+    <div class="why"><b>對新壽的啟示：</b>「可稽核、可介入、可替換」可直接當成新光所有 AI 專案的驗收三原則——現在內建，比未來被監理要求時回頭改造便宜得多。</div>
+    <div class="src">來源：<a href="https://venturebeat.com/orchestration/massmutuals-ai-strategy-12-month-contracts-30-productivity-gains-zero-lock-in" target="_blank">VentureBeat</a>｜<a href="https://money.udn.com/money/story/5613/9486677" target="_blank">經濟日報</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="num">肆</span>台灣的 7 月：一紙併購核准＋成效量化競賽，市場與能力同步重整</h3>
+    <p>金管會 7/7 核准玉山金以約 <span class="hl">467 億元</span>併購三商美邦人壽（9/1 更名玉山人壽），數位強權金控加入壽險戰局；同月富邦揭露核保 <span class="hl">-50%</span>、國泰以理賠、行銷、精算應用獲商周 AI 創新百強白金獎（1 月評選）。對照全球本月已在比「企業價值」，台灣主戰場仍在「效率量化＋市場整併」。</p>
+    <div class="why"><b>對新壽的啟示：</b>玉山併三商的整合速度是台新新光金綜效的直接對照組；建議把「整合敘事」與「成效數字」當成下半年對外溝通的兩條主線同步準備。</div>
+    <div class="src">來源：<a href="https://newtalk.tw/news/view/2026-07-07/1045829" target="_blank">Newtalk</a>｜<a href="https://www.bnext.com.tw/article/91297/fubonlife" target="_blank">數位時代</a>｜<a href="https://www.cathay-ins.com.tw/cathayins/news/20260122/" target="_blank">國泰官方新聞稿</a></div>
+  </div>
+
+  <!-- ════════ 本月大事記 ════════ -->
+  <div class="band"><span class="tag">本月大事記</span><span class="rule"></span></div>
+  <div class="secban g-bench">
+    <span class="ico">📊</span>
+    <div class="txt"><div class="t1">7 月最重要的七件事</div><div class="t2">KEY EVENTS OF THE MONTH</div></div>
+  </div>
+
+  <div class="item">
+    <h3>大事記一覽（依重要度排序）</h3>
+    <table class="rank">
+      <tr><th style="width:120px">日期／時點</th><th>事件</th></tr>
+      <tr><td>6/16（7 月報導）</td><td><b>Evident AI Index 2026 雙榜</b>：Allianz 整體第 1、Manulife 壽險類連兩年第 1</td></tr>
+      <tr><td>6 月起</td><td><b>Manulife 揭示 AI 財務目標</b>：2027 年前逾 10 億美元企業價值、人才年增 41%</td></tr>
+      <tr><td>7/7</td><td><b>金管會核准玉山金併三商美邦人壽</b>（約 467 億元，9/1 更名玉山人壽）</td></tr>
+      <tr><td>7 月揭露</td><td><b>Prudential Financial×AWS 多代理平台</b>：統一 10 萬名顧問入口、Agent 上線時程 6–8 週 → 3–4 週</td></tr>
+      <tr><td>7 月揭露</td><td><b>Allianz UK「BRIAN」交出年度成績</b>：13,000+ 查詢、節省 135 個核保工作天（2025/1 上線）</td></tr>
+      <tr><td>7/2</td><td><b>Travelers 發表自建保險專屬 LLM</b>：數百萬份內部文件訓練，成本更低、速度更快</td></tr>
+      <tr><td>6/15</td><td><b>香港保監局 AI Cohort 擴編至 10 家</b>：核心參與者須設 AI 卓越中心</td></tr>
+    </table>
+    <div class="why"><b>對新壽的啟示：</b>7 月的共同主題是「證據」——排名、財務目標、節省天數、併購金額全是可驗證的數字。新光下半年的 AI 溝通也應以可驗證數字為底。</div>
+    <div class="src">來源：各事件連結見本報各分區條目</div>
+  </div>
+
+  <!-- ════════ 公司月度追蹤 ════════ -->
+  <div class="band alt"><span class="tag">公司月度追蹤</span><span class="rule"></span></div>
+  <div class="secban g-global">
+    <span class="ico">🌐</span>
+    <div class="txt"><div class="t1">本月連續劇：三家公司的發展線</div><div class="t2">COMPANY TRAJECTORIES</div></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="badge">全球</span><a href="https://www.allianz.com/en/mediacenter/news/articles/260616-allianz-ranked-first-in-2026-evident-ai-Index-for-insurance.html" target="_blank">Allianz（安聯）｜從登頂到交成績單的一個月</a></h3>
+    <p>發展線：6/16 Evident 整體<span class="hl">首度登頂</span>（900+ 案例）→ 本月披露集團 GenAI Lab 已讓員工自建 <span class="hl">30,000+ 個 AI Agent</span>（2026/3 官方文章）→ 英國核保助理 BRIAN 揭露年度成效（節省 135 個工作天）。背後支撐是 1 月與 Anthropic 的全球合作與 AI 稽核層建置——「平台綁定 → 全員擴散 → 單點成效」的完整鏈條在本月看得最清楚。</p>
+    <div class="why"><b>對新壽的啟示：</b>Allianz 的月度軌跡示範了規模化三層次：底層平台、全員工具、場景成效。新光評估 AI 藍圖時可用這三層檢視自身缺口。</div>
+    <div class="src">來源：<a href="https://www.allianz.com/en/mediacenter/news/articles/260616-allianz-ranked-first-in-2026-evident-ai-Index-for-insurance.html" target="_blank">Allianz（Evident）</a>｜<a href="https://www.allianz.com/en/mediacenter/news/articles/260327-ai-at-work-how-human-and-ai-skills-make-insurance-better.html" target="_blank">Allianz（GenAI Lab）</a>｜<a href="https://www.allianz.co.uk/news-and-insight/news/brian-the-ai-brain.html" target="_blank">Allianz UK（BRIAN）</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="badge">全球</span><a href="https://www.manulife.com/ca/en/about-us/news/manulife-named-number-1-life-insurance-company-for-ai-maturity-by-evident" target="_blank">Manulife（宏利）｜壽險類榜首＋財務目標＋技術底座三連發</a></h3>
+    <p>發展線：Evident 壽險類<span class="hl">連續第二年第一</span> → 揭示 <span class="hl">2027 年逾 10 億美元</span>AI 企業價值目標（2025 年底已實現 3 億美元、AI 人才年增 41%）→ 選定 Adaptive ML 導入強化學習讓模型持續迭代，日本子公司成立 AI 卓越中心。宏利把「排名、財務、技術」三件事包裝成一個月內的連續敘事。</p>
+    <div class="why"><b>對新壽的啟示：</b>宏利是亞太業務比重高的集團中 AI 敘事最完整者，其「價值實現追蹤」與人才成長率指標最值得壽險同業直接對標。</div>
+    <div class="src">來源：<a href="https://www.manulife.com/ca/en/about-us/news/manulife-named-number-1-life-insurance-company-for-ai-maturity-by-evident" target="_blank">Manulife 官方</a>｜<a href="https://www.manulife.com/ca/en/about-us/news/manulife-selects-adaptive-ml-to-scale-enterprise-ai" target="_blank">Manulife×Adaptive ML</a>｜<a href="https://www.prnewswire.com/news-releases/manulife-named-1-life-insurer-for-ai-maturity-for-second-consecutive-year-by-evident-302801100.html" target="_blank">PR Newswire</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="badge">全球</span><a href="https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers" target="_blank">Prudential Financial（保德信）｜從治理建制到平台落地</a></h3>
+    <p>發展線：Q2 揭露 <span class="hl">260+ AI 案例、2,300+ 員工使用 Agentic AI</span>、設立 Chief Data and AI Officer → 本月披露與 AWS 共建多代理平台，統一 <span class="hl">10 萬名理財顧問</span>的工作入口（原需切換 50–60 套系統），新 Agent 上線時程縮至 3–4 週，全程採「治理優先」原則。（註：與英國保誠 Prudential plc 為不同公司）</p>
+    <div class="why"><b>對新壽的啟示：</b>保德信示範「先建治理角色（CDAIO）、再上平台」的順序——治理建制不是煞車而是加速器，讓平台落地時不必回頭補合規。</div>
+    <div class="src">來源：<a href="https://news.prudential.com/us-en/latest-news/prudential-news/2026/q2/AI-at-Prudential-Amplifying-human-potential-to-better-serve-our-customers" target="_blank">Prudential Newsroom</a>｜<a href="https://www.techtarget.com/searchcustomerexperience/news/366627045/Financial-services-giant-Prudential-crafts-agentic-AI-strategy" target="_blank">TechTarget</a></div>
+  </div>
+
+  <!-- ════════ 台灣同業月度盤點 ════════ -->
+  <div class="band"><span class="tag">台灣同業月度盤點</span><span class="rule"></span></div>
+  <div class="secban g-tw">
+    <span class="ico">🏙️</span>
+    <div class="txt"><div class="t1">台灣壽險 7 月 AI 動態盤點</div><div class="t2">TAIWAN MONTHLY ROUNDUP</div></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="badge tw">新光</span><a href="https://udn.com/news/story/7239/9601048" target="_blank">新光人壽｜「Go健康GoFit」跨子公司合作上線，合併綜效首發</a></h3>
+    <p>與台新銀行 Richart Life 合作推出健康行為集點計畫，串接逾 <span class="hl">350 萬數位客戶</span>生態圈，為台新新光金合併後首批跨子公司協作產品，方向對標 AIA Vitality 的健康參與模式；月內無其他新增公開 AI 揭露。</p>
+    <div class="why"><b>對新壽的啟示：</b>健康生態圈的下一步是資料策略——行為數據的治理、同意機制與 AI 應用路徑需及早定義，讓點數行銷同時累積可用的資料資產。</div>
+    <div class="src">來源：<a href="https://udn.com/news/story/7239/9601048" target="_blank">經濟日報</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="badge tw">台灣</span><a href="https://www.bnext.com.tw/article/91297/fubonlife" target="_blank">富邦人壽｜量化成效與人才佈局雙線並進</a></h3>
+    <p>月內兩期動態串成一條線：核保智能助理（2025 年 5 月啟用）將核保時間 <span class="hl">50 分鐘 → 25 分鐘（-50%）</span>、理賠智能助理 1 月上線（Microsoft Copilot Studio）、FacePass 刷臉投保 3 分鐘（5 月推出）；月底再見 2026 MA 招募明列 <span class="hl">LLM／AI Agent 職能</span>——生產部署與人才管線同步推進。</p>
+    <div class="why"><b>對新壽的啟示：</b>富邦是台灣「成效敘事」目前的定價者。新光同場景專案宜設定可對標的量化指標，人才招募敘述也應同步更新，兩條線都不能落後。</div>
+    <div class="src">來源：<a href="https://udn.com/news/story/7238/9429305" target="_blank">聯合新聞網（核保 50→25 分鐘）</a>｜<a href="https://www.bnext.com.tw/article/91297/fubonlife" target="_blank">數位時代（理賠助理）</a>｜<a href="https://finance.technews.tw/2026/05/25/facepass/" target="_blank">TechNews</a>｜<a href="https://www.fubon.com/financialholdings/hr/FubonMA.html" target="_blank">富邦金控（MA 招募）</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="badge tw">台灣</span><a href="https://www.cathay-ins.com.tw/cathayins/news/20260122/" target="_blank">國泰人壽｜獎項背書＋技術框架，月度聲量最大</a></h3>
+    <p>1 月商周「AI 創新百強」<span class="hl">白金獎</span>（理賠效率 +20%、保障型商品成交率 +5.7 倍、NPS +5.9%）本月持續發酵；GAIA 2.0 多代理框架（2025 年 10 月技術年會發表）攜手 <span class="hl">NVIDIA</span> 打造金融 AI Agent，LLM 可自動生成雲端架構圖；理賠流程 30+ AI Agents、全員「AI 公民計畫」同步推進。</p>
+    <div class="why"><b>對新壽的啟示：</b>國泰同時經營「獎項、框架、人才」三種聲量，已是台灣 AI 品牌策略最完整的同業；新光可先聚焦一種（建議：可驗證的成效數字）建立記憶點。</div>
+    <div class="src">來源：<a href="https://www.cathay-ins.com.tw/cathayins/news/20260122/" target="_blank">國泰官方新聞稿</a>｜<a href="https://money.udn.com/money/story/5613/9546676" target="_blank">經濟日報</a>｜<a href="https://www.ithome.com.tw/news/172490" target="_blank">iThome</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="badge tw">台灣</span><a href="https://www.ithome.com.tw/news/176177" target="_blank">南山人壽｜AI First 藍圖落到知識基礎建設</a></h3>
+    <p>月初揭示第二階段「AI First」（2026–2028）藍圖與 TRY-IF 創新機制（56 徵案 → 3 案 POC）；月中再見企業知識庫上線——整合 <span class="hl">Embedding Model 與 LLM</span> 支援語意搜尋與員工自然語言問答，藍圖正逐步落到基礎建設。</p>
+    <div class="why"><b>對新壽的啟示：</b>南山「藍圖＋機制＋地基」的節奏穩健；其中企業知識庫門檻最低、效益最直接，是新光可以最快跟上的一步。</div>
+    <div class="src">來源：<a href="https://www.ithome.com.tw/news/176177" target="_blank">iThome（藍圖）</a>｜<a href="https://www.ithome.com.tw/news/176105" target="_blank">iThome（知識庫）</a></div>
+  </div>
+
+  <div class="item">
+    <h3><span class="badge tw">觀察</span>台灣人壽、凱基人壽、保誠人壽台灣｜本月無具體動態</h3>
+    <p>三家 7 月均無符合收錄條件之 AI 應用新揭露；凱基延續 FinLLM 產業專案參與（16 家金融機構共建）。</p>
+  </div>
+
+  <!-- ════════ 監理月報 ════════ -->
+  <div class="band alt"><span class="tag">監理月報</span><span class="rule"></span></div>
+  <div class="secban g-reg">
+    <span class="ico">🏛️</span>
+    <div class="txt"><div class="t1">7 月監理動態：台灣與亞太</div><div class="t2">REGULATORY MONTHLY</div></div>
+  </div>
+
+  <div class="item">
+    <h3><a href="https://money.udn.com/money/story/5613/9486677" target="_blank">台灣｜「AI 管 AI」架構推進＋玉山金併購核准，監理雙面向並進</a></h3>
+    <p>金管會持續推進「可程式化 AI／AI Agent／AI 風險分類」入指引與「AI 管 AI」稽核架構（高風險決策恐須保留人工介入），並研議保險資金投資 AI 算力中心；市場面 7/7 核准玉山金併三商美邦人壽——監理在「管 AI 風險」與「促市場重整」兩面向同月出手。</p>
+    <div class="why"><b>對新壽的啟示：</b>高風險場景（核保拒保、理賠拒付）的新專案應直接按「人工介入＋可解釋」規格設計；投資端可預研算力中心作為長期配置選項。</div>
+    <div class="src">來源：<a href="https://money.udn.com/money/story/5613/9486677" target="_blank">經濟日報（AI 管 AI）</a>｜<a href="https://money.udn.com/money/story/5613/9570625" target="_blank">經濟日報（保險資金）</a>｜<a href="https://newtalk.tw/news/view/2026-07-07/1045829" target="_blank">Newtalk</a></div>
+  </div>
+
+  <div class="item">
+    <h3><a href="https://www.ia.org.hk/en/infocenter/press_releases/20260615.html" target="_blank">香港｜保監局 AI Cohort 擴編至 10 家，「帶隊落地」模式成形</a></h3>
+    <p>保監局 6/15 舉辦 AI Cohort Symposium，新增中銀人壽、中國人壽（海外）、宏利國際三家核心參與者，計畫啟動未滿一年已達 <span class="hl">10 家</span>（含 AIA、保誠、安盛）；參與者須在港設 AI 卓越中心、培育人才並向業界分享知識——監理角色從「管風險」轉向「建能力」。</p>
+    <div class="why"><b>對新壽的啟示：</b>香港經驗顯示監理可以是能力建設引擎；台灣 FinLLM 與「AI 管 AI」方向相近，建議把對監理溝通當策略工作經營，在規則形成期取得實務話語權。</div>
+    <div class="src">來源：<a href="https://www.ia.org.hk/en/infocenter/press_releases/20260615.html" target="_blank">香港保監局官方</a>｜<a href="https://www.asiainsurancereview.com/News/View-NewsLetter-Article/id/95878/type/eDaily/Hong-Kong-Three-new-participants-join-the-AI-cohort-programme" target="_blank">Asia Insurance Review</a></div>
+  </div>
+
+  <div class="item">
+    <h3><a href="https://www.edb.gov.sg/en/about-edb/media-releases-publications/fwd-group-establishes-ai-lab-in-singapore-with-edb-support.html" target="_blank">新加坡｜國家 AI 戰略拉動保險業：EDB 資源＋MAS Pathfin.ai</a></h3>
+    <p>星國把保險 AI 納入國家戰略 NAIS 2.0：EDB 支持 FWD 設 AI Lab（2025 年 10 月成立，2027 年目標數百個 AI 模型）、MAS 主導 Pathfin.ai 促進金融業 AI 交流——政府、監理、業者形成國家隊形。</p>
+    <div class="why"><b>對新壽的啟示：</b>參與台灣 FinLLM 等產業共建，是以較低單一公司投入取得系統性能力的最短路徑，值得積極卡位。</div>
+    <div class="src">來源：<a href="https://www.edb.gov.sg/en/about-edb/media-releases-publications/fwd-group-establishes-ai-lab-in-singapore-with-edb-support.html" target="_blank">新加坡 EDB</a>｜<a href="https://www.fwd.com/en/newsroom/press-releases/FWD-Group-establishes-AI-Lab-in-Singapore-with-EDB-support/" target="_blank">FWD 官方新聞稿</a></div>
+  </div>
+
+  <!-- ════════ 洞察 ════════ -->
+  <div class="insight">
+    <span class="label">EXECUTIVE INSIGHT</span>
+    <p>「7 月給台灣壽險業的訊號很清楚：全球在比『AI 創造多少價值』，台灣在比『整併與效率』。<br>新光的機會，是把合併綜效與 AI 成效寫成同一個故事。」</p>
+  </div>
+
+  <!-- ════════ 下載區 ════════ -->
+  <div class="download">
+    <img alt="QR Code 下載本期月報" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOgAAADoAQAAAADN0pXVAAABOklEQVR4nO2YQXYDMQhDpb7c/8q/C8BxF82GSYf6JVnERouRgmGEjV58vl6BH/QfoKISTH6lFWEm5w76UOqzkIyQV2Qo5zZqO3Y4dFdkMOc+amEseRSrt6IYmd/Qu1hdiT6kZ4OSlYK5l9V79a4DbIzZIjM5N/Xu2Y3Fiszk3EHz/JqQWi8iCZmhnJt6QyDx2rXyBzOVcxMtoeDMrJR/xFjOfRRZYbAsidjezupy1JXNKGRnqvNcz+Tc71d+Go0QmtuZnPv9CuNUKa3sTuXcR3MkQoYYEE+tX4HW2FsDcAInzr/bdLCd6grP5Nz0k5uJtHa1Uzl354W634gu7c1gzeTcrd8qXgkBGzST80VodK64z+HU+t3RmnqJpnWk3/h5vyGDt1usmZy7fjJW1DId9bH++ZbnftC/Qb8BLSmPo6QwIk8AAAAASUVORK5CYII=">
+    <div class="txt">
+      <h3>掃描 QR Code，下載本期月報</h3>
+      <p>手機掃描左側 QR Code 或點擊下方按鈕，即可下載完整版（含 PDF）。<br>或直接分享連結：https://reurl.cc/omgNWl</p>
+      <a class="btn" href="https://reurl.cc/omgNWl">下載本期月報</a>
+    </div>
+  </div>
+
+  <div class="foot">
+    <div class="brand">新光人壽 數據暨AI發展部</div>
+    保險業 AI・Agent・數位轉型 月報｜全球保險業 AI 與 Data 發展月度回顧<br>
+    <span class="note">資料來源：各公司官方新聞稿、Evident Insights、國內外媒體公開報導（各條目均附來源連結）。<br>本報告由 AI 情報系統輔助產生，重要決策前請以原始來源查證。<br>All Rights Reserved © 2026 新光人壽 數據暨AI發展部</span>
+  </div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+<script>
+function dlPDF(){
+  var btn=document.getElementById('dlpdf');
+  btn.textContent='產生中…';btn.disabled=true;
+  var name=document.title.replace(/[📡\s|｜:：]/g,'_').replace(/_+/g,'_')+'.pdf';
+  html2pdf().set({
+    margin:0,
+    filename:name,
+    image:{type:'jpeg',quality:0.92},
+    html2canvas:{scale:2,useCORS:true,ignoreElements:function(el){return el.id==='dlpdf';}},
+    jsPDF:{unit:'mm',format:'a4',orientation:'portrait'},
+    pagebreak:{mode:['css','legacy'],avoid:['.item','.secban','.insight','.band','.masthead','.download']}
+  }).from(document.querySelector('.wrap')).save().then(function(){
+    btn.textContent='⬇ 下載 PDF';btn.disabled=false;
+  });
+}
+</script>
+</body>
+</html>
